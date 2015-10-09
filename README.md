@@ -51,13 +51,28 @@ A full list of providers and their arguments can be found on [the Analytics.js i
 ```
 return [
 	// [...],
+
 	'components' => [
+		// [...],
+
 		'analyticsjs' => [
 			'providers' => [
-			
+				// Google Analytics Provider
+				'Google Analytics' => [
+					'domain' 					=> 'https://www.example.com,
+					'doubleClick' 				=> false,
+					'enhancedLinkAttribution' 	=> false,
+					'trackingId' 				=> 'UA-XXXXXXXX',
+					'universalClient' 			=> 1
+				],
+		
+				// Piwik provider
+				'Piwik' => [
+					'siteId' 					=> 5,
+					'url'						=> 'https://piwik.example.com
+				]			
 			]
 		]
 	]	
 ];
 ```
-
