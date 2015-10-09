@@ -1,0 +1,23 @@
+{
+    "name": "charlesportwoodii/yii2-analytics.js",
+    "description": "Segment's Analytics.js library integration for Yii2",
+    "keywords": ["yii2", "segment", "analytics.js", "analytics"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/charlesportwoodii/yii2-analytics.js/issues",
+        "source": "https://github.com/charlesportwoodii/yii2-analytics.js"
+    },
+    "authors": [
+        {
+            "name": "Charles R. Portwood II",
+            "email": "charlesportwoodii@erianna.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.6"
+    },
+    "autoload": {
+        "psr-4": { "yii\\analyticsjs\\": "" }
+    }
+}
