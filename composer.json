@@ -20,6 +20,6 @@
 		"bower-asset/analytics": ">=2.11.0"
     },
     "autoload": {
-        "psr-4": { "yii\\analyticsjs\\": "" }
+        "psr-4": { "charlesportwoodii\\analyticsjs\\": "" }
     }
 }
