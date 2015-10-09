@@ -3,7 +3,8 @@
  * @link https://github.com/charlesportwoodii/yii2-analytics.js
  * @copyright Copyright (c) 2015 Charles R. Portwood II
  * @license MIT
- *    @see LICENSE.md
+ * @author Charles R. Portwood II <charlesportwoodii@erianna.com>
+ * @since 1.0.0
  */
 
 namespace charlesportwoodii\analyticsjs;
@@ -12,7 +13,7 @@ use yii\web\AssetBundle;
 use Yii;
 
 
-class AnalyticsJsAssetBundle extends AssetBundle
+class AnalyticsJsAsset extends AssetBundle
 {
 	public $sourcePath = [
 		'@bower/analytics'

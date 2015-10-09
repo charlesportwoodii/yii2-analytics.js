@@ -13,8 +13,6 @@ For licensing information see LICENSE.md(LICENSE.md).
 
 ## Installation
 
-This repository requires ```composer-asset-plugin```, which will either need to be installed globally for your user or in your project scope. For more information see [Composer Asset Plugin Installation](https://github.com/francoispluchino/composer-asset-plugin/blob/master/Resources/doc/index.md).
-
 The preferred way to install this extension is through composer.
 
 ```
