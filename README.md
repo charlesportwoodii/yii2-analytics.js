@@ -2,7 +2,7 @@
 
 This extension provides [Analytics.js](https://segment.com/docs/libraries/analytics.js/) integration for [Yii Framework 2](www.yiiframework.com), and is the natural extension of [EAnalytics](https://github.com/charlesportwoodii/EAnalytics) which performs the same task for Yii1. This extension enables you to control and manage your analytics providers from within your Yii2 configuration, or in more complex examples, from a dynamic configuration.
 
-For licensing information see LICENSE.md(LICENSE.md).
+For licensing information see [LICENSE.md](LICENSE.md).
 
 [![Travis CI](https://travis-ci.org/charlesportwoodii/yii2-analytics.js.svg?branch=master)](https://travis-ci.org/charlesportwoodii/yii2-analytics.js)
 [![Downloads](https://img.shields.io/packagist/dt/charlesportwoodii/yii2-analytics.js.svg?style=flat)](https://packagist.org/packages/charlesportwoodii/yii2-analytics.js)
