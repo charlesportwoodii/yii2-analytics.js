@@ -4,10 +4,11 @@ This extension provides [Analytics.js](https://segment.com/docs/libraries/analyt
 
 For licensing information see [LICENSE.md](LICENSE.md).
 
-[![Travis CI](https://travis-ci.org/charlesportwoodii/yii2-analytics.js.svg?branch=master)](https://travis-ci.org/charlesportwoodii/yii2-analytics.js)
-[![Downloads](https://img.shields.io/packagist/dt/charlesportwoodii/yii2-analytics.js.svg?style=flat)](https://packagist.org/packages/charlesportwoodii/yii2-analytics.js)
-[![License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat "License")](LICENSE.md)
-[![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
+[![Travis CI](https://img.shields.io/travis/charlesportwoodii/yii2-analytics.js.svg?style=flat-square)](https://travis-ci.org/charlesportwoodii/yii2-analytics.js)
+[![Packagist Version](https://img.shields.io/packagist/v/charlesportwoodii/yii2-analytics.js.svg?style=flat-square)](https://packagist.org/packages/charlesportwoodii/yii2-analytics.js)
+[![Downloads](https://img.shields.io/packagist/dt/charlesportwoodii/yii2-analytics.js.svg?style=flat-square)](https://packagist.org/packages/charlesportwoodii/yii2-analytics.js)
+[![License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square "License")](LICENSE.md)
+[![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat-square)](http://www.yiiframework.com/)
 
 ------
 
