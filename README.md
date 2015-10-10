@@ -19,7 +19,7 @@ The preferred way to install this extension is through composer.
 composer require --prefer-dist "charlesportwoodii/yii2-analytics.js"
 ```
 
-or add the following to your ```composer.json``` file.
+or add the following to your ```composer.json```'s ```require-dev``` section.
 
 ```
 "charlesportwoodii/yii2-analytics.js": "~1.0.0"
