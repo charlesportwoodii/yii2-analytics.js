@@ -7,13 +7,13 @@
  * @since 1.0.0
  */
 
-namespace charlesportwoodii\analyticsjs;
+namespace charlesportwoodii\analytics;
 
 use yii\web\AssetBundle;
 use Yii;
 
 
-class AnalyticsJsAsset extends AssetBundle
+class JsAsset extends AssetBundle
 {
 	public $sourcePath = [
 		'@bower/analytics'

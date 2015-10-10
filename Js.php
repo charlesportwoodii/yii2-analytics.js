@@ -7,12 +7,13 @@
  * @since 1.0.0
  */
 
-namespace charlesportwoodii\analyticsjs;
+namespace charlesportwoodii\analytics;
 
-use charlesportwoodii\analyticsjs\AnalyticsJsAsset;
+use charlesportwoodii\analytics\JsAsset;
 
 use yii\base\Component;
 use yii\helpers\Json;
+use yii\base\InvalidConfigException;
 
 use Yii;
 
@@ -36,7 +37,7 @@ use Yii;
  *	];
  *	~~~
  */
-class Analyticsjs extends Component
+class Js extends Component
 {
 	/**
  	 * Provider list from component configuration

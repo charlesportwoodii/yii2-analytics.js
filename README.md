@@ -59,7 +59,7 @@ return [
 			'providers' => [
 				// Google Analytics Provider
 				'Google Analytics' => [
-					'domain' 					=> 'https://www.example.com,
+					'domain' 					=> 'https://www.example.com',
 					'doubleClick' 				=> false,
 					'enhancedLinkAttribution' 	=> false,
 					'trackingId' 				=> 'UA-XXXXXXXX',
@@ -69,7 +69,7 @@ return [
 				// Piwik provider
 				'Piwik' => [
 					'siteId' 					=> 5,
-					'url'						=> 'https://piwik.example.com
+					'url'						=> 'https://piwik.example.com'
 				]			
 			]
 		]
