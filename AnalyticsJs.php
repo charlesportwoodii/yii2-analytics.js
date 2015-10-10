@@ -58,7 +58,10 @@ class AnalyticsJs extends Component
 
 		// Do nothing if no providers are present
 		if (empty($providers))
+		{
+			Yii::info('Analytics.js providers are empty', 'charlesportwoodii.analytics.AnalyticsJs');
 			return;
+		}
 
 		$config = JSON::encode($providers);
 
