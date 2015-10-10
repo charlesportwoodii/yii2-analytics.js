@@ -23,6 +23,7 @@ class AnalyticsJsAsset extends AssetBundle
 	
 	public $publishOptions = [
 		'only' => [
+			'analytics.js',
 			'analytics.min.js'
 		]
 	];
