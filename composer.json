@@ -8,16 +8,17 @@
         "issues": "https://github.com/charlesportwoodii/yii2-analytics.js/issues",
         "source": "https://github.com/charlesportwoodii/yii2-analytics.js"
     },
-    "authors": [
-        {
+    "authors": [{
             "name": "Charles R. Portwood II",
             "email": "charlesportwoodii@erianna.com"
-        }
-    ],
+    }],
     "require": {
         "yiisoft/yii2": ">=2.0.6",
         "fxp/composer-asset-plugin": "~1.0",
 		"bower-asset/analytics": ">=2.11.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
     },
     "autoload": {
         "psr-4": { "charlesportwoodii\\analyticsjs\\": "" }
