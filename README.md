@@ -34,6 +34,7 @@ return [
 	// [...],
 	'components' => [
 		'analyticsjs' => [
+			'class' => 'charlesportwoodii\analytics\AnalyticsJs',
 			'providers' => [
 			
 			]
@@ -56,6 +57,7 @@ return [
 		// [...],
 
 		'analyticsjs' => [
+			'class' => 'charlesportwoodii\analytics\AnalyticsJs',
 			'providers' => [
 				// Google Analytics Provider
 				'Google Analytics' => [

@@ -13,15 +13,16 @@ use yii\web\AssetBundle;
 use Yii;
 
 
-class JsAsset extends AssetBundle
+class AnalyticsJsAsset extends AssetBundle
 {
-	public $sourcePath = [
-		'@bower/analytics'
-	];
+	public $sourcePath = '@bower/analytics';
 
+	public $js = [
+		'analytics.js'	
+	];
+	
 	public $publishOptions = [
 		'only' => [
-			'analytics.js',
 			'analytics.min.js'
 		]
 	];

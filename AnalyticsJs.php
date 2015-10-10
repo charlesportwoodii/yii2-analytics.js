@@ -9,7 +9,7 @@
 
 namespace charlesportwoodii\analytics;
 
-use charlesportwoodii\analytics\JsAsset;
+use charlesportwoodii\analytics\AnalyticsJsAsset;
 
 use yii\base\Component;
 use yii\helpers\Json;
@@ -29,6 +29,7 @@ use Yii;
  *		// [...],
  *		'components' => [
  *			'analyticsjs' => [
+ *				'class' => 'charlesportwoodii\analytics\AnalyticsJs',
  *				'providers' => [
  *				
  *				]
@@ -37,7 +38,7 @@ use Yii;
  *	];
  *	~~~
  */
-class Js extends Component
+class AnalyticsJs extends Component
 {
 	/**
  	 * Provider list from component configuration
@@ -66,7 +67,7 @@ class Js extends Component
 		AnalyticsJsAsset::register($view);
 
 		// Initialize the script
-		$view->registerJs('analytics-js', "analytics.initialize({$json}); analytics.page();");
+		$view->registerJs("analytics.initialize({$config}); analytics.page();", \yii\web\View::POS_END, 'analytics-js');
 	}
 
 	/**
