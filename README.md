@@ -1,5 +1,7 @@
 # Yii2 Analytics.js Integration
 
+This package is unmaintained, and is archived for historical purposes.
+
 This extension provides [Analytics.js](https://segment.com/docs/libraries/analytics.js/) integration for [Yii Framework 2](www.yiiframework.com), and is the natural extension of [EAnalytics](https://github.com/charlesportwoodii/EAnalytics) which performs the same task for Yii1. This extension enables you to control and manage your analytics providers from within your Yii2 configuration, or in more complex examples, from a dynamic configuration.
 
 For licensing information see [LICENSE.md](LICENSE.md).
